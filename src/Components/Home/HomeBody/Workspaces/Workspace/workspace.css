@@ -1,0 +1,119 @@
+.workspaces__container .MuiPaper-root {
+  margin-bottom: 2rem;
+  background-color: #fff;
+}
+.workspace__summary .workspace__title {
+  font-weight: 600;
+  color: var(--unnamed-color-6f96aa);
+  flex: 1;
+}
+.workspaces__container .MuiAccordionDetails-root {
+  padding: 0px;
+}
+.workspaces__container .accordian__maincontent {
+  padding: 2rem;
+  background-color: white;
+  width: 100%;
+}
+.workspaces__container .accordian__maincontent h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #4e7d96;
+  margin-top: 1.5rem;
+}
+.workspaces__container .workspace__summary {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.workspace__summary .MuiAvatar-root {
+  width: 30px;
+  height: 30px;
+  font-size: 1rem;
+}
+.MuiAccordionSummary-root .MuiIconButton-root {
+  color: var(--unnamed-color-6f96aa);
+}
+
+.remaining__coins__count,
+.assigned__coins__count {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.assigned__coins__count__container {
+  border-radius: 5px;
+  padding: 4px 6px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+}
+.assigned__coins__count__container:hover {
+  border: 1px solid var(--unnamed-color-6f96aa);
+}
+.assigned__coins__count__container .MuiSvgIcon-root {
+  display: none;
+}
+.assigned__coins__count__container:hover .MuiSvgIcon-root {
+  display: inline-block;
+  font-size: 1.1rem;
+  color: var(--unnamed-color-6f96aa);
+  margin-left: 0.5rem;
+  transition: display ease-in 2s;
+}
+.MuiPaper-root.MuiAccordion-root.workspace__item.Mui-expanded.MuiAccordion-rounded.MuiPaper-elevation1.MuiPaper-rounded
+  .assigned__coins__count__container:hover {
+  border-color: white;
+}
+.MuiPaper-root.MuiAccordion-root.workspace__item.Mui-expanded.MuiAccordion-rounded.MuiPaper-elevation1.MuiPaper-rounded
+  .assigned__coins__count__container:hover
+  .MuiSvgIcon-root {
+  color: white;
+}
+.remaining__coins__count,
+.assigned__coins__count .count__number {
+  font-weight: 600;
+  color: var(--unnamed-color-6f96aa);
+}
+.workspaces__container .MuiAccordion-rounded {
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px #4e7d9619;
+}
+.workspaces__container .MuiAccordion-rounded:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.workspaces__container .MuiAccordion-rounded:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.workspaces__container .MuiAccordion-rounded::before {
+  display: none;
+}
+.workspaces__container .MuiAccordion-rounded::after {
+  display: none;
+}
+.MuiPaper-root.MuiAccordion-root.workspace__item.Mui-expanded.MuiAccordion-rounded.MuiPaper-elevation1.MuiPaper-rounded {
+  background-color: var(--new-orange);
+}
+.MuiPaper-root.MuiAccordion-root.workspace__item.Mui-expanded.MuiAccordion-rounded.MuiPaper-elevation1.MuiPaper-rounded
+  .workspace__title {
+  color: white;
+}
+.MuiPaper-root.MuiAccordion-root.workspace__item.Mui-expanded.MuiAccordion-rounded.MuiPaper-elevation1.MuiPaper-rounded
+  .count__number {
+  color: #fff;
+}
+.MuiPaper-root.MuiAccordion-root.workspace__item.Mui-expanded.MuiAccordion-rounded.MuiPaper-elevation1.MuiPaper-rounded
+  .dollar__sign {
+  color: var(--new-orange);
+  background-color: white;
+}
+.workspaces__container .MuiAccordionSummary-expandIcon.Mui-expanded {
+  color: white;
+}
+.accordian__maincontent__contributors__row {
+  display: flex;
+  align-items: center;
+}

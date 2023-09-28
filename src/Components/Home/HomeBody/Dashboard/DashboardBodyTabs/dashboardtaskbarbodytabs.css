@@ -1,0 +1,28 @@
+.dashboardtaskbarbodytabs {
+  box-shadow: 0px 15px 50px #4e7d961a;
+  border-radius: 10px;
+  background-color: #fafafa;
+  padding: 0.2rem;
+  margin: 0rem 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.dashboardtaskbarbodytabs:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.dashboardtaskbarbodytabs p {
+  font-size: 0.875rem;
+  margin: 1rem;
+  flex: 1;
+  color: #707070;
+}
+.dashboardtaskbarbodytabs__header {
+  background-color: var(--new-orange);
+  color: white;
+  text-align: center;
+  border-radius: 0.4rem;
+  padding: 0.6rem 0;
+  font-size: 1rem;
+}

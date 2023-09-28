@@ -1,0 +1,135 @@
+.planscreen1 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 5rem;
+  padding-bottom: 2.5rem;
+}
+.plans__container {
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  position: relative;
+}
+.planstype {
+  background-color: var(--unnamed-color-6f96aa);
+  color: white;
+  border-radius: 10px;
+  align-self: flex-start;
+  margin: 1rem 0;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+.planstype button {
+  border: none;
+  background-color: #6f96aa;
+  color: white;
+  padding: 6px 14px;
+  font-size: 0.875rem;
+  outline: none;
+  border: 1px solid #6f96aa;
+  border-radius: 10px;
+  width: 100px;
+}
+.planstype .planstype__button__active {
+  background-color: white;
+  color: #4e7d96;
+}
+.plans__container .single__plan {
+  background-color: white;
+  box-shadow: 0px 0px 50px #4e7d9619;
+  flex: 1;
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+.plans__container .single__plan h3 {
+  color: var(--new-orange);
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: #ff934b25;
+  padding: 10px;
+  text-align: center;
+}
+.plans__container .single__plan .plan__value {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  font-weight: 600;
+  justify-content: center;
+  color: var(--new-orange);
+}
+
+.plans__container .single__plan .plan__coins__value {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  color: #4e7d96;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+.plans__container .single__plan h1 {
+  color: var(--new-orange);
+  margin-bottom: 0.8rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.plans__container .plan__features__container {
+  width: 100%;
+  flex: 1;
+}
+.plans__container .plan__features__container p {
+  padding: 0.4rem;
+  text-align: center;
+  color: #4e7d96;
+}
+
+.plans__container .plan__features__container .fa-check-circle {
+  color: var(--new-orange);
+}
+.popular__plan {
+  overflow: hidden;
+}
+.popular__plan::before {
+  content: "Popular Plan";
+  position: absolute;
+  right: -40px;
+  top: 40px;
+  transform: rotate(45deg);
+  width: 175px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 3px 3px 0 0;
+  background-color: var(--new-orange);
+  color: white;
+}
+
+@media screen and (max-width: 450px) {
+  .planscreen1 {
+    padding: 1.5rem 1rem;
+  }
+  .plans__container {
+    flex-direction: column;
+  }
+  .plans__container .single__plan {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 641px) {
+  .planscreen1 {
+    padding: 1.5rem 1.5rem;
+  }
+  .plans__container {
+    flex-direction: column;
+  }
+  .plans__container .single__plan {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 1200px) {
+  .planscreen1 {
+    padding: 1.5rem 2rem;
+  }
+}

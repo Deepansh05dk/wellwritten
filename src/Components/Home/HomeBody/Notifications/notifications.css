@@ -1,0 +1,28 @@
+.notifications {
+  position: relative;
+  padding: 1.4rem;
+  background-color: #f4f4f4;
+  height: 100%;
+  max-width: 300px;
+}
+.notification__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.notifications h3 {
+  color: #4e7d96;
+  text-align: center;
+}
+.single__notification {
+  background-color: white;
+  margin: 2rem 0;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+.single__notification span {
+  color: #012174;
+  margin-left: 2rem;
+  font-size: 0.9rem;
+}

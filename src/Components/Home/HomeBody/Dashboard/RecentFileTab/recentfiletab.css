@@ -1,0 +1,57 @@
+.recentfiletab {
+  box-shadow: 0px 0px 50px #4e7d961a;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1.2rem;
+  margin: 0 0.4rem;
+  min-height: 100px;
+  z-index: 0;
+}
+.recentfiletab__date {
+  font-size: 0.7rem;
+  margin-top: 1rem;
+  font-weight: lighter;
+}
+.recentfiletab h3 {
+  color: #012174;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+  font-size: 1rem;
+}
+.recentfiletab .MuiAvatar-colorDefault {
+  background-color: var(--new-orange);
+}
+.recentfiletab .MuiAvatar-root {
+  height: 30px;
+  width: 30px;
+}
+.recentfiletab .MuiAvatarGroup-avatar {
+  border-color: #002273;
+  font-size: 0.8rem;
+}
+.recentfiletab .MuiAvatarGroup-avatar:last-child {
+  border: none;
+}
+.recentfiletab__header .recentfiletab__option {
+  color: #002173;
+  font-weight: 1000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.recentfiletab__option span {
+  font-weight: 1000;
+}
+.recentfiletab__header {
+  display: flex;
+  justify-content: space-between;
+  min-width: 150px;
+}
+.recentfiletab__header .recentfiletab__option:hover {
+  background-color: rgba(255, 166, 0, 0.3);
+  color: var(--new-orange);
+}
+@media screen and (min-width: 1100px) {
+  .recentfiletab__header {
+    min-width: 200px;
+  }
+}

@@ -1,0 +1,44 @@
+.checkout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #4e7d96;
+  background-color: #4e7d9626;
+  height: 100vh;
+}
+.checkout__body {
+  background-color: white;
+  padding: 40px;
+  margin: 40px;
+  width: 40%;
+}
+.checkout__body .fa-check-circle {
+  color: var(--new-orange);
+}
+.checkout__body .plan__features__container {
+  width: 100%;
+  flex: 1;
+}
+.checkout__body .plan__features__container p {
+  padding: 0.4rem;
+  text-align: center;
+  color: #4e7d96;
+}
+.checkout__body .plan__value {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  font-weight: 600;
+  justify-content: center;
+  color: var(--new-orange);
+}
+.checkout__body .plan__coins__value {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  color: #4e7d96;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1.125rem;
+}

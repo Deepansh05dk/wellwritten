@@ -1,0 +1,88 @@
+.mainsoftwaresidebar {
+  background-color: white;
+  flex: 0.06;
+  position: relative;
+  border-radius: 10px;
+  margin: 0.15rem;
+  order: 0;
+  display: flex;
+  justify-content: center;
+}
+.mainsoftwaresidebar .MuiFormControl-marginDense {
+  margin: 1.5rem 0;
+}
+.mainsoftwaresidebar_body {
+  flex: 1;
+  flex-direction: column;
+  display: none;
+  padding-bottom: 1.8rem;
+  overflow-y: auto;
+}
+.mainsoftwaresidebar_header {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: var(--unnamed-color-6f96aa);
+  padding: 1rem 2rem;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+.mainsoftwaresidebar_content {
+  flex: 1;
+  padding: 0 4rem;
+}
+.mainsoftwaresidebar h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-right: 0.6rem;
+}
+.mainsoftwaresidebar_header .help_icon {
+  cursor: pointer;
+}
+
+.mainsoftwaresidebar__content__submitbutton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mainsoftwaresidebar .mainsoftwaresidebar_main_heading {
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+  align-self: center;
+  height: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #4e7d96;
+  /* background-color: var(--unnamed-color-6f96aa);
+  color: white; */
+}
+
+.input__info {
+  position: relative;
+  margin: 1.5rem 0;
+}
+.input__info .MuiFormControl-marginDense {
+  margin: 0rem;
+}
+.input__info .MuiSvgIcon-root {
+  color: var(--unnamed-color-6f96aa);
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.mainsoftwaresidebar .generate__coins__display {
+  color: var(--unnamed-color-4e7d96);
+  font-size: 0.8rem;
+}
+@media screen and (max-width: 641px) {
+  .mainsoftwaresidebar_content {
+    padding: 0 2rem;
+  }
+}

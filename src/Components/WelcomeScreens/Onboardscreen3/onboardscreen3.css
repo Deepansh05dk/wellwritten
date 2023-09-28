@@ -1,0 +1,50 @@
+.onboardscreen3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.onboardscreen3__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  justify-content: space-evenly;
+  width: 80%;
+}
+.onboardscreen3__body .onboardscreen3__body__heading {
+  color: rgb(13, 13, 73);
+  font-weight: bold;
+  text-align: center;
+}
+.onboardscreen3__body__heading h4 {
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #4e7d96;
+}
+
+.onboardscreen3__body__option_container {
+  display: grid;
+  grid-template-columns: auto auto;
+  flex: 0.4;
+  width: 100%;
+}
+.onboardscreen3__body__option_container .onboardscreen__body__option {
+  margin: 0.6rem 0.4rem;
+}
+.onboardscreen3 .trackbars .trackbar1 {
+  border-radius: 0.4rem 0 0 0.4rem;
+  background-color: var(--new-orange);
+}
+.onboardscreen3 .trackbars .trackbar2 {
+  background-color: var(--new-orange);
+}
+.onboardscreen3 .trackbars .trackbar3 {
+  background-color: var(--new-orange);
+}
+
+.onboardscreen3 .trackbars .trackbar4 {
+  border-radius: 0 0.4rem 0.4rem 0;
+}

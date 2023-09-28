@@ -1,0 +1,102 @@
+.onboardscreen4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.onboardscreen4__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.onboardscreen4 .trackbars .trackbar1 {
+  border-radius: 0.4rem 0 0 0.4rem;
+  background-color: var(--new-orange);
+}
+.onboardscreen4 .trackbars .trackbar2 {
+  background-color: var(--new-orange);
+}
+.onboardscreen4 .trackbars .trackbar3 {
+  background-color: var(--new-orange);
+}
+
+.onboardscreen4 .trackbars .trackbar4 {
+  border-radius: 0 0.4rem 0.4rem 0;
+  background-color: var(--new-orange);
+}
+.onboardscreen4__body__heading h4 {
+  color: #4e7d96;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+.onboardscreen4__body__heading p {
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.onboardscreen4__body__heading,
+.onboardscreen4__body__feature p {
+  color: #4e7d96;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.onboardscreen4__body__features {
+  display: flex;
+  flex: 0.45;
+  justify-content: space-evenly;
+}
+.onboardscreen4__body__feature {
+  display: flex;
+  flex: 0.27;
+  flex-direction: column;
+  align-items: center;
+}
+.onboardscreen4__body__feature__img__container {
+  flex: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 3px solid var(--unnamed-color-6f96aa);
+  width: 60%;
+}
+.onboardscreen4__body__feature__img__container img {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+.onboardscreen4__body__feature p {
+  flex: 0.3;
+  padding: 0.8rem 0rem;
+  color: #4e7d96;
+}
+.onboardscreen__submitbutton__container
+  .onboardscreen4__body
+  .onboardscreen__submitbutton {
+  margin-bottom: 4rem;
+}
+@media screen and (max-width: 450px) {
+  .onboardscreen4__body__features {
+    flex-direction: column;
+    width: 80%;
+  }
+  .onboardscreen4__body__feature__img__container {
+    width: 40%;
+  }
+  .onboardscreen4__body__feature p {
+    margin-bottom: 1rem;
+  }
+  .onboardscreen4__body .onboardscreen__submitbutton {
+    margin-bottom: 0rem;
+  }
+  .onboardscreen4__body__heading h4 {
+    margin-bottom: 0rem;
+  }
+}

@@ -1,0 +1,18 @@
+.signup {
+  background-color: white;
+  flex: 1;
+  border-radius: 0.5rem;
+}
+
+.signup form {
+  flex: 0.4;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup form button {
+  margin: 1rem;
+}

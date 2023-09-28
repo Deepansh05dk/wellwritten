@@ -1,0 +1,83 @@
+.balance2 h3 {
+  color: white;
+  background-color: var(--unnamed-color-6f96aa);
+  border-radius: 10px 10px 0 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+.balance2 {
+  display: flex;
+}
+.balance2 p {
+  color: var(--unnamed-color-4e7d96);
+  font-weight: 600;
+}
+.balance2 .content__title {
+  color: var(--unnamed-color-4e7d96);
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.yourplan__container,
+.billing__container {
+  padding: 2rem 1.5rem;
+  background-color: white;
+  box-shadow: 0px 0px 50px #4e7d961a;
+  border-radius: 0 0 10px 10px;
+}
+.balance2 .MuiButton-outlined {
+  margin-top: 3.5rem;
+}
+.balance2 .yourplan {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+}
+.balance2 .billing {
+  flex: 0.6;
+  margin-left: 6rem;
+}
+.balance2__buttons__container {
+  display: flex;
+  justify-content: center;
+}
+.balance2__info__container {
+  margin-bottom: 2rem;
+}
+.billing__upper__container {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 450px) {
+  .balance2 .billing {
+    margin-left: 1rem;
+  }
+
+  .yourplan__container,
+  .billing__container {
+    padding: 2rem 1rem;
+  }
+  .billing__upper__container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 641px) {
+  .balance2 .billing {
+    margin-left: 2rem;
+  }
+  .yourplan__container,
+  .billing__container {
+    padding: 2rem 1rem;
+  }
+  .billing__upper__container {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 1200px) {
+  .balance2 .billing {
+    margin-left: 4rem;
+  }
+}

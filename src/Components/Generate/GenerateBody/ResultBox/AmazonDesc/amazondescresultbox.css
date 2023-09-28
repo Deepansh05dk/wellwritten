@@ -1,0 +1,54 @@
+.amazondescresultbox__body {
+  padding: 1rem;
+  padding-bottom: 0px;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 0.9rem;
+}
+.amazondescresultbox__container {
+  padding: 1rem;
+  background-color: #32323251;
+}
+.amazondescresultbox__container__content {
+  position: relative;
+  background-color: white;
+}
+
+.amazondescresultbox__ratings {
+  display: flex;
+  align-items: center;
+}
+.amazondescresultbox__price {
+  color: red;
+}
+.amazondescresultbox__returns {
+  display: flex;
+  align-items: center;
+}
+.amazondescresultbox__price span {
+  font-size: 1.4rem;
+}
+.amazondescresultbox p {
+  color: blue;
+  font-size: 0.8rem;
+}
+.amazondescresultbox h4 {
+  color: red;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.stars .MuiSvgIcon-root {
+  color: orange;
+}
+.amazondescresultbox__textbox {
+  background-color: white;
+  outline: none;
+  color: #4d5156;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+@media screen and (max-width: 641px) {
+  .amazondescresultbox__textbox {
+    padding: 1rem;
+  }
+}

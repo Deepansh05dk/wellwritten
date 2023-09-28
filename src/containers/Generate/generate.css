@@ -1,0 +1,15 @@
+.mainsoftwarelayout__body {
+  background-color: #f1f6fa;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 340px;
+  height: 100vh;
+}
+@media screen and (max-width: 641px) {
+  .mainsoftwarelayout__body {
+    padding: 1rem 0.5rem;
+    width: 98%;
+  }
+}

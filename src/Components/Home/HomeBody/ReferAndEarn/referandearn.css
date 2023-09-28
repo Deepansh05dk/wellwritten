@@ -1,0 +1,53 @@
+.referandearn__body {
+  background-color: #4e7d9626;
+  padding: 3rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.referandearn__body .MuiInputBase-input {
+  font-weight: 600;
+  color: #4e7d96;
+}
+.referandearn h3 {
+  text-align: left;
+  color: white;
+  padding-left: 0.6rem;
+  padding: 1rem 2rem;
+  border-radius: 10px 10px 0 0;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: var(--unnamed-color-6f96aa);
+}
+.createdlinks__body {
+  background-color: #4e7d9626;
+  padding: 2rem 3rem;
+  padding-bottom: 5rem;
+}
+
+@media screen and (max-width: 450px) {
+  .referandearn__body {
+    padding: 1.5rem 1rem;
+  }
+  .createdlinks__body {
+    padding: 1.5rem 1rem;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 641px) {
+  .referandearn__body {
+    padding: 1.5rem;
+  }
+  .createdlinks__body {
+    padding: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1200px) {
+  .referandearn__body {
+    padding: 1.5rem 2rem;
+  }
+  .createdlinks__body {
+    padding: 1.5rem 2rem;
+  }
+}

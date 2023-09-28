@@ -1,0 +1,95 @@
+.resultbox {
+  display: flex;
+  margin: 1.5rem 0;
+}
+.resultbox .MuiCheckbox-root {
+  align-self: flex-start;
+}
+.resultbox__content {
+  background-color: white;
+  box-shadow: 0px 10px 50px #4e7d9619;
+  margin-left: 0.4rem;
+  flex: 1;
+  border-radius: 10px;
+}
+.resultbox__content .websitelink {
+  color: #1a0dab;
+  font-size: 1.25rem;
+}
+.resultbox__content__footer {
+  padding: 0.8rem 0;
+  display: flex;
+  flex-direction: column;
+}
+.resultbox__content__footer hr {
+  background-color: var(--unnamed-color-6f96aa);
+}
+.blurbg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #32323251;
+}
+
+.resultbox_content_select {
+  background-color: var(--unnamed-color-6f96aa);
+  color: white;
+  outline: none;
+  border: none;
+  padding: 0.3rem 0.8rem;
+  border-radius: 10px;
+}
+.resultbox_content__length {
+  font-size: 0.8rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 10px;
+  color: var(--unnamed-color-4e7d96);
+  background-color: white;
+}
+.resultbox__content__characters {
+  background-color: var(--unnamed-color-6f96aa);
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  align-self: flex-start;
+  padding: 2px;
+  margin: 0 1rem;
+  margin-bottom: 0.5rem;
+}
+.resultbox_content hr {
+  margin: 0.6rem 0;
+}
+.resultbox_content_icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+.resultbox_content_icons .MuiIconButton-root {
+  padding: 10px;
+}
+.resultbox_content_icons_left {
+  display: flex;
+  flex: 0.2;
+  justify-content: space-between;
+}
+.resultbox_content_icons {
+  border: none;
+}
+.resultbox_content_icons .MuiInput-underline:before {
+  border: 0px;
+}
+.resultbox .MuiButtonBase-root {
+  font-size: 1.5rem;
+  color: var(--unnamed-color-6f96aa);
+}
+.resultbox .MuiButtonBase-root:hover {
+  background-color: rgba(255, 166, 0, 0.3);
+}
+.resultbox .MuiButtonBase-root:hover .material-icons {
+  color: #f68f26;
+}
+.resultbox .MuiButtonBase-root:hover .MuiSvgIcon-root {
+  color: #f68f26;
+}

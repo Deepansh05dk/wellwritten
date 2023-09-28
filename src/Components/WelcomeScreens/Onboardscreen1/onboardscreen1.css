@@ -1,0 +1,63 @@
+.onboardscreen1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.onboardscreen1 .trackbars .trackbar1 {
+  border-radius: 0.4rem 0 0 0.4rem;
+  background-color: var(--new-orange);
+}
+
+.onboardscreen1 .trackbars .trackbar4 {
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+.companyname__input span {
+  color: #4e7d96;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+.onboardscreen1__body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 80%;
+  justify-content: space-evenly;
+}
+.onboardscreen1__body h2 {
+  color: #4e7d96;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.organisationsize__input__options {
+  display: flex;
+  justify-content: space-between;
+}
+.organisationsize__input__options .onboardscreen__body__option {
+  flex: 1;
+  margin: 0 0.3rem;
+}
+
+.organisationsize__input h3 {
+  color: #4e7d96;
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+.onboardscreen1__submitbutton {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0;
+}
+@media screen and (max-width: 641px) {
+  .organisationsize__input__options .onboardscreen__body__option {
+    padding: 0.5rem 0.4rem;
+    border: 2px solid var(--unnamed-color-6f96aa);
+  }
+}

@@ -1,0 +1,146 @@
+body .MuiSvgIcon-fontSizeSmall {
+  font-size: 1rem;
+}
+body .MuiOutlinedInput-root,
+.MuiSelect-outlined {
+  border-radius: 0.5rem;
+  font-family: "Montserrat";
+}
+body .MuiInputBase-input {
+  font-family: "Montserrat";
+}
+body input:-internal-autofill-selected {
+  background-color: transparent !important;
+}
+
+body .MuiOutlinedInput-notchedOutline {
+  border: 1.6px solid var(--unnamed-color-6f96aa);
+}
+body .MuiFormControl-marginDense {
+  margin: 1rem 0;
+}
+
+body .MuiFormLabel-root {
+  color: var(--unnamed-color-4e7d96);
+  font-family: "Montserrat";
+  z-index: 0;
+}
+body .MuiFormLabel-root.Mui-focused {
+  color: #4e7d96;
+}
+
+body .MuiButton-outlined {
+  border: 3px solid var(--new-orange);
+  border-radius: 10px;
+  background-color: var(--new-orange);
+  color: white;
+  outline: none;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 600;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: "Montserrat";
+  cursor: pointer;
+}
+body .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: var(--unnamed-color-6f96aa);
+}
+body .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: var(--unnamed-color-6f96aa);
+  background-color: transparent;
+}
+body .MuiSelect-select:focus {
+  background-color: transparent;
+}
+body .MuiSelect-icon {
+  color: var(--unnamed-color-6f96aa);
+}
+body .MuiMenuItem-root {
+  font-family: "Montserrat";
+  color: #4e7d96;
+  background-color: transparent;
+}
+body .MuiMenuItem-root:focus {
+  background-color: transparent;
+}
+body .hover__backgroundchange__buttons:hover {
+  background-color: var(--new-orange);
+}
+.next .MuiSvgIcon-root {
+  position: relative;
+  left: 10px;
+}
+body .MuiChip-root {
+  border-radius: 0.4rem;
+  border-color: var(--new-orange);
+  color: var(--new-orange);
+  border-width: 2px;
+  background-color: transparent;
+  margin: 0.2rem;
+  font-family: "Montserrat";
+}
+body .MuiChip-deleteIconOutlinedColorPrimary {
+  color: var(--new-orange);
+}
+body .MuiChip-deleteIconOutlinedColorPrimary:hover {
+  color: var(--new-orange);
+}
+body .MuiTable-root {
+  box-shadow: 0px 0px 50px #4e7d9619;
+}
+body .MuiTableHead-root {
+  background-color: white;
+}
+body .MuiTableCell-head {
+  font-weight: 600;
+  color: var(--unnamed-color-6f96aa);
+  font-size: 1rem;
+  font-family: "Montserrat";
+  border-bottom: 1px solid var(--unnamed-color-6f96aa);
+}
+body .MuiTableCell-body {
+  font-family: "Montserrat";
+  color: var(--unnamed-color-4e7d96);
+  background-color: white;
+  border-bottom: 0px;
+}
+
+.dollar__sign {
+  background-color: var(--new-orange);
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  align-items: center;
+  font-size: 1rem;
+  margin-right: 0.4rem;
+}
+body .add__more {
+  color: var(--new-orange);
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+body .add__more .MuiSvgIcon-root {
+  color: var(--new-orange);
+}
+.target__keywords__container {
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+body button.MuiButtonBase-root.MuiIconButton-root.closebutton {
+  color: var(--unnamed-color-6f96aa);
+  position: absolute;
+  right: 1rem;
+  top: 0.45rem;
+  z-index: 2;
+}
+body .MuiDialog-paper {
+  box-shadow: 0px 0px 50px #4e7d9619;
+}

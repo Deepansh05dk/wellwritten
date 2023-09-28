@@ -1,0 +1,41 @@
+.mainscreen {
+  display: flex;
+  background-color: white;
+  min-height: 100vh;
+  position: relative;
+}
+.sidebar__navigator {
+  position: absolute;
+  left: 10px;
+  top: 22px;
+  width: 30px;
+  height: 30px;
+  z-index: 8;
+  display: none;
+  opacity: 0;
+}
+svg.MuiSvgIcon-root.sidebar__menu {
+  position: absolute;
+  left: 10px;
+  top: 22px;
+  z-index: 7;
+  display: none;
+  color: var(--unnamed-color-6f96aa);
+}
+.sidebar__navigator:checked ~ .sidebar {
+  display: flex;
+  position: absolute;
+  left: 0px;
+  background-color: white;
+  z-index: 6;
+  height: 100%;
+}
+
+@media screen and (max-width: 860px) {
+  .sidebar__navigator {
+    display: inline-block;
+  }
+  svg.MuiSvgIcon-root.sidebar__menu {
+    display: inline-block;
+  }
+}

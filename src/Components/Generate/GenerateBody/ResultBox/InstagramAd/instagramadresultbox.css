@@ -1,0 +1,77 @@
+.instagramadresultbox__container {
+  border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+}
+.instagramadresultbox__body {
+  padding: 1rem;
+  padding-bottom: 0px;
+}
+.instagramadresultbox__content {
+  position: relative;
+}
+.instagramadresultbox__imgcontainer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: white;
+}
+.instagramadresultbox__imgcontainer img {
+  object-fit: contain;
+  width: 45%;
+  max-width: 330px;
+}
+
+.instagramadresultbox__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 1.3rem;
+  padding-top: 1rem;
+}
+.instagramadresultbox__header__left {
+  display: flex;
+}
+.instagramadresultbox__header__info {
+  margin-left: 0.8rem;
+}
+.instagramadresultbox__banner {
+  background-color: blue;
+  color: white;
+  padding: 0.4rem 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.instagramadresultbox__icons {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem 1rem;
+}
+.instagramadresultbox__icons img {
+  width: 2.2rem;
+  object-fit: contain;
+}
+.likes_container {
+  padding: 0.1rem 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.instagramadresultbox__textbox {
+  outline: none;
+  color: #4d5156;
+  font-size: 1rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+.content__blurbg {
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+@media screen and (max-width: 641px) {
+  .instagramadresultbox__textbox {
+    padding: 0.5rem;
+  }
+  .instagramadresultbox__body {
+    padding: 1.4rem;
+  }
+}

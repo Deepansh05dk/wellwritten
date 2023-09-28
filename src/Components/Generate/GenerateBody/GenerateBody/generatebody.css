@@ -1,0 +1,124 @@
+.mainsoftware {
+  background-color: #e5eef3;
+  flex: 1;
+  border-radius: 10px;
+  display: flex;
+  min-height: 300px;
+}
+.mainsoftware__body {
+  flex: 1;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  order: 4;
+  margin-left: -30px;
+}
+.mainsoftware__body input[type="checkbox"] {
+  background-color: #e5eef3;
+}
+.mainsoftware__body__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem 0rem;
+  border-bottom: 2px solid var(--unnamed-color-6f96aa);
+}
+.mainsoftware__body__header .MuiTypography-body1 {
+  font-family: "Montserrat";
+  color: var(--unnamed-color-4e7d96);
+  font-weight: 600;
+}
+.mainsoftware__body__header .MuiFormControlLabel-root {
+  margin-right: 0px;
+}
+.mainsoftware__body__header_icons {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem 0.8rem;
+  flex: 0.25;
+  justify-content: space-evenly;
+}
+.mainsoftware__body__header .MuiSvgIcon-root {
+  color: var(--unnamed-color-6f96aa);
+  cursor: pointer;
+}
+
+.mainsoftware__body__content {
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tocheck {
+  position: absolute;
+  bottom: 80px;
+  right: 22px;
+  align-self: flex-end;
+  position: relative;
+  cursor: pointer;
+  order: 3;
+  height: 3rem;
+  width: 1.3rem;
+  z-index: 1;
+  opacity: 0;
+}
+
+.direction_arrow_container {
+  order: 2;
+  position: relative;
+  bottom: 80px;
+  left: -2px;
+  background-color: white;
+  align-self: flex-end;
+  border-radius: 0 0.3rem 0.3rem 0;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  border: none;
+  color: var(--new-orange);
+}
+
+.direction_arrow_container div {
+  border-left: 2px solid var(--unnamed-color-6f96aa);
+  height: 70%;
+  display: flex;
+  align-items: center;
+}
+.direction_arrow_container:hover {
+  transform: scale(1.03);
+  transition: transform ease-in 0.1s;
+}
+.tocheck:checked ~ .mainsoftwaresidebar {
+  flex: 1;
+  transition: flex ease-in 0.1s;
+}
+.tocheck:checked ~ .mainsoftwaresidebar .mainsoftwaresidebar_body {
+  display: flex;
+}
+.tocheck:checked ~ .mainsoftwaresidebar .mainsoftwaresidebar_main_heading {
+  display: none;
+  transition: display ease-in 0.1s;
+}
+.tocheck:checked ~ .mainsoftwaresidebar .icon_div {
+  display: block;
+}
+.tocheck:checked ~ .direction_arrow_container .direction_arrow {
+  transform: rotate(180deg);
+  transition: transform ease-in 0.2s;
+}
+@media screen and (max-width: 641px) {
+  .tocheck:checked ~ .mainsoftware__body {
+    display: none;
+  }
+  .mainsoftware__body__content {
+    padding: 5px;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1008px) {
+  .mainlayout__taskbar__tasks {
+    font-size: 1rem;
+  }
+}

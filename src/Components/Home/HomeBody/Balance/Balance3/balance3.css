@@ -1,0 +1,14 @@
+.view__download__container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.view__download__container p {
+  color: #ff934b;
+  font-weight: 600;
+  cursor: pointer;
+}
+@media screen and (max-width: 641px) {
+  .view__download__container {
+    flex-direction: column;
+  }
+}

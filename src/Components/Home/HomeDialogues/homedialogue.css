@@ -1,0 +1,26 @@
+.welcome_dialogue__buttons .MuiButton-outlined {
+  border: 3px solid #f69024;
+  color: #f68a06;
+  border-radius: 10px;
+  background-color: white;
+  outline: none;
+  text-transform: capitalize;
+  font-size: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: "Montserrat";
+  cursor: pointer;
+  margin: 1rem 1.5rem;
+}
+.welcome_dialogue__buttons .MuiButton-outlined:hover {
+  background-color: white;
+}
+.welcome_dialogue__buttons .hover__backgroundchange__buttons:hover {
+  background-color: #f69024;
+  color: white;
+}
+.welcome_dialogue__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

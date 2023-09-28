@@ -1,0 +1,24 @@
+.editworkspace__body {
+  padding: 2.5rem 5rem;
+  background-color: #4e7d9626;
+}
+.editworkspace__body h3 {
+  color: #4e7d96;
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 450px) {
+  .editworkspace__body {
+    padding: 1.5rem 1rem;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 641px) {
+  .editworkspace__body {
+    padding: 1.5rem 1.5rem;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 1200px) {
+  .editworkspace__body {
+    padding: 1.5rem 2rem;
+  }
+}

@@ -1,0 +1,39 @@
+.projecttabs {
+  border-radius: 0 10px 10px 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 50px #4e7d9619;
+  margin: 0rem auto;
+  margin-bottom: 48px;
+  padding: 0.8rem;
+  position: relative;
+  height: 164px;
+  z-index: 2;
+  width: 190px;
+  box-sizing: border-box;
+}
+.projecttabs__date {
+  font-size: 0.7rem;
+  margin-top: 2rem;
+  color: #6f95a9;
+}
+.projecttabs h3 {
+  color: #4e7d96;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+}
+
+.projecttabs .MuiAvatar-colorDefault {
+  background-color: var(--new-orange);
+}
+.projecttabs .MuiAvatar-root {
+  height: 30px;
+  width: 30px;
+}
+.projecttabs .MuiAvatarGroup-avatar {
+  border-color: #6f96aa;
+  font-size: 0.8rem;
+}
+.projecttabs .MuiAvatarGroup-avatar:last-child {
+  border: none;
+}

@@ -1,0 +1,68 @@
+.planscreen2 {
+  padding: 4rem 5rem;
+}
+.customplans__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 50px #4e7d961a;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem 3rem;
+}
+.customplans__container h1 {
+  color: var(--new-orange);
+  margin-bottom: 1.5rem;
+}
+
+.price__slider .MuiSlider-rail {
+  height: 10px;
+  color: #f1f6fa;
+  border-radius: 10px;
+}
+.price__slider .MuiSlider-track {
+  height: 10px;
+  color: var(--new-orange);
+  border-radius: 10px;
+}
+.price__slider .MuiSlider-thumb {
+  height: 20px;
+  width: 20px;
+  color: var(--new-orange);
+}
+.price__slider .MuiSlider-thumb::before {
+  content: "$";
+  color: white;
+}
+.price__slider .MuiSlider-markLabel {
+  color: #4e7d96;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: "Montserrat";
+}
+.price__slider .MuiSlider-mark {
+  display: none;
+}
+.coins_count__display {
+  background-color: #ff934b25;
+  color: #000000ba;
+  padding: 5px 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 450px) {
+  .planscreen2 {
+    padding: 1.5rem 1rem;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 641px) {
+  .planscreen2 {
+    padding: 1.5rem 1.5rem;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 1200px) {
+  .planscreen2 {
+    padding: 1.5rem 2rem;
+  }
+}

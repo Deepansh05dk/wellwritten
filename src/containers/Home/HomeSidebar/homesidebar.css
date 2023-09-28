@@ -1,0 +1,96 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 130px;
+  position: relative;
+}
+.sidebar__logo {
+  width: 4.5rem;
+  height: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.sidebar__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3rem;
+  padding: 0.8rem 0rem;
+  width: 80%;
+}
+.sidebar__icon .MuiSvgIcon-fontSizeLarge {
+  font-size: 2rem;
+}
+.sidebar__icon .fa {
+  font-size: 1.9rem;
+  transform: rotateY(180deg);
+}
+.sidebar__icon .fas {
+  font-size: 1.9rem;
+}
+.sidebar__icon:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.sidebar__icon p {
+  font-size: 0.6rem;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  text-align: center;
+}
+.sidebar__icons {
+  color: #6f96aa;
+  flex: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sidebar__icons hr {
+  background-color: white;
+  height: 1px;
+  opacity: 1.5;
+  width: 90%;
+  margin: 0.3rem 0;
+}
+.balance__updates {
+  background-color: #ff934b;
+  padding: 3px;
+  margin-top: 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.balance__updates p {
+  font-size: 0.65rem;
+  text-align: center;
+}
+.balance__updates .balance__updates__upgrade {
+  padding: 0.4rem 0;
+  font-size: 0.9rem;
+  color: white;
+}
+.balance__updates__container {
+  background-color: white;
+  border-radius: 0.3rem;
+  color: #ff934b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+@media screen and (max-width: 860px) {
+  .sidebar {
+    width: 150px;
+    display: none;
+  }
+}
+
+@media screen and (min-height: 1008px) {
+  .sidebar {
+    width: 150px;
+  }
+}

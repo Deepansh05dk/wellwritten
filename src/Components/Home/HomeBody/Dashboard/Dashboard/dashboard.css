@@ -1,0 +1,82 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.dashboardtaskbarbody {
+  background-color: #4e7d9626;
+  padding: 2rem 5rem;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  flex: 0.7;
+}
+
+.recent {
+  padding-left: 0.6rem;
+  padding: 1rem 2rem;
+  border-radius: 10px 10px 0 0;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  background-color: var(--unnamed-color-6f96aa);
+}
+.recentfiles {
+  background-color: #4e7d9626;
+  flex: 0.3;
+  padding: 1rem 3rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.recentfiles__slider {
+  position: absolute;
+  background-color: var(--unnamed-color-6f96aa);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 10px;
+  z-index: 2;
+  box-shadow: 0px 10px 20px #00000026;
+  cursor: pointer;
+  display: none;
+}
+.recentfiles_container {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  overflow-x: auto;
+}
+.recentfiles:hover .recentfiles__slider {
+  display: flex;
+}
+.recentfiles_container::-webkit-scrollbar {
+  display: none;
+}
+@media screen and (max-width: 450px) {
+  .dashboardtaskbarbody {
+    grid-template-columns: auto;
+    padding: 1.5rem 2rem;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 641px) {
+  .dashboardtaskbarbody {
+    grid-template-columns: auto auto;
+    padding: 1.5rem 3rem;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 1200px) {
+  .dashboardtaskbarbody {
+    grid-template-columns: auto auto auto;
+    padding: 1.5rem 4rem;
+  }
+}

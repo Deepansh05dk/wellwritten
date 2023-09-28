@@ -1,0 +1,34 @@
+.seometatagresultbox {
+  min-height: 180px;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+}
+.seometatagresultbox__body {
+  padding: 1rem;
+  padding-bottom: 0px;
+}
+.seometatagresultbox__body_container {
+  background-color: #32323251;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.seometatagresultbox__content {
+  position: relative;
+  background-color: white;
+}
+.seometatagresultbox__textbox {
+  border-radius: 0.5rem;
+  background-color: whitesmoke;
+  padding: 1rem;
+  margin-top: 0.4rem;
+  outline: none;
+}
+.seometatagresultbox .MuiButtonBase-root:hover select {
+  background-color: rgba(255, 166, 0, 0.04);
+  color: orange;
+}
+.seometatagresultbox__textbox__titletag,
+.seometatagresultbox__textbox__metatag {
+  outline: none;
+}

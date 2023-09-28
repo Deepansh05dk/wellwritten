@@ -1,0 +1,78 @@
+.profile__body {
+  background-color: #4e7d9626;
+  padding: 3rem 5rem;
+  display: flex;
+  flex-direction: column;
+}
+.profile__body h3 {
+  width: 100%;
+  text-align: left;
+  color: #4e7d96;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.profile__body img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px #4e7d961a;
+  border: 5px solid var(--new-orange);
+  margin-right: 4rem;
+  object-fit: cover;
+}
+.profile__name__email {
+  flex: 1;
+}
+.profile__name__email .MuiButton-outlined {
+  border-color: var(--unnamed-color-6f96aa);
+  background-color: transparent;
+  color: #4e7d96;
+  margin: 1rem 0;
+}
+.personal__info {
+  display: flex;
+  width: 100%;
+}
+.change__password {
+  color: var(--new-orange);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+.changepassword__dialog {
+  padding: 1.5rem 3rem;
+}
+.changepassword__dialog h3 {
+  color: #4e7d96;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+@media screen and (max-width: 450px) {
+  .profile__body {
+    padding: 1.5rem 1rem;
+  }
+  .personal__info {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 641px) {
+  .profile__body {
+    padding: 1.5rem;
+  }
+  .personal__info {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 1200px) {
+  .profile__body {
+    padding: 1.5rem 2rem;
+  }
+}

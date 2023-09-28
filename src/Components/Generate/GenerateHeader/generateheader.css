@@ -1,0 +1,46 @@
+.mainsoftware__header {
+  background-color: var(--unnamed-color-6f96aa);
+  margin-bottom: 1.5rem;
+  border-radius: 0.4rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 20px;
+  position: relative;
+}
+.mainsoftware__header h4 {
+  text-align: center;
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 600;
+  flex: 0.8;
+}
+.mainsoftware__header__save_exit {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  flex: 0.2;
+}
+.mainsoftware__header__save_exit h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.mainsoftware__header__save_exit__info p {
+  font-size: 0.6rem;
+}
+
+@media screen and (max-width: 641px) {
+  .mainsoftware__header h4 {
+    font-size: 0.8rem;
+    flex: 0.6;
+  }
+  .mainsoftware__header__save_exit {
+    flex: 0.4;
+  }
+  .mainsoftware__header__save_exit h3 {
+    font-size: 0.8rem;
+  }
+  .mainsoftware__header__save_exit__info p {
+    font-size: 0.4rem;
+  }
+}

@@ -1,0 +1,47 @@
+.description__input {
+  margin: 1.5rem 0;
+  position: relative;
+}
+.description__trackbar {
+  height: 10px;
+  background-color: rgb(218, 210, 210);
+  border-radius: 1rem;
+}
+.description__trackbar .description__trackbar__status__bar {
+  height: 10px;
+  border-radius: 1rem;
+}
+.description__status {
+  text-align: right;
+}
+.poor__color__status {
+  background-color: red;
+  width: 33.3%;
+}
+.fine__color__status {
+  background-color: orange;
+  width: 66.6%;
+}
+.good__color__status {
+  background-color: green;
+  width: 100%;
+}
+.poor__text__status::before {
+  content: "Poor";
+  color: red;
+}
+.fine__text__status::before {
+  content: "Fine";
+  color: orange;
+}
+.good__text__status::before {
+  content: "Good";
+  color: green;
+}
+.description__input .MuiSvgIcon-root {
+  color: var(--unnamed-color-6f96aa);
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  cursor: pointer;
+}

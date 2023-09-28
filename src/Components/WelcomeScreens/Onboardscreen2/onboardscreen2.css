@@ -1,0 +1,47 @@
+.onboardscreen2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.onboardscreen2 .trackbars .trackbar1 {
+  border-radius: 0.4rem 0 0 0.4rem;
+  background-color: var(--new-orange);
+}
+.onboardscreen2 .trackbars .trackbar2 {
+  background-color: var(--new-orange);
+}
+
+.onboardscreen2 .trackbars .trackbar4 {
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+
+.onboardscreen2__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 1;
+  width: 80%;
+}
+.onboardscreen2__body h4 {
+  font-weight: bold;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #4e7d96;
+}
+.onboardscreen2__body__option__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  flex: 0.4;
+}
+.onboardscreen2__body__option__container .onboardscreen__body__option {
+  width: 50%;
+  margin: 0.6rem 0;
+  flex: 1;
+}

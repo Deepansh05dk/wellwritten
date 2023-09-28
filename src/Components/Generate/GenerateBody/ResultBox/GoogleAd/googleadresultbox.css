@@ -1,0 +1,51 @@
+.googleadresultbox {
+  min-height: 180px;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+}
+.googleadresultbox__body {
+  background-color: #32323251;
+  border-radius: 0.5rem 0.5rem 0 0;
+  padding: 0.4rem 1rem;
+  padding-bottom: 1rem;
+}
+.googleadresultbox__header {
+  padding-left: 2rem;
+  padding-bottom: 0.2rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: white;
+}
+.googleadresultbox__header b {
+  margin-right: 0.4rem;
+}
+.googleadresultbox__maintextbox {
+  background-color: white;
+  padding: 1rem;
+  font-family: arial, sans-serif;
+  border-radius: 0.4rem;
+}
+.googleadresultbox__maintextbox h5 {
+  outline: none;
+}
+.googleadresultbox__textbox {
+  outline: none;
+  width: 100%;
+  color: #4d5156;
+  font-size: 1rem;
+}
+
+.googleadresultbox .MuiButtonBase-root:hover select {
+  background-color: rgba(255, 166, 0, 0.04);
+  color: orange;
+}
+@media screen and (max-width: 641px) {
+  .googleadresultbox__maintextbox {
+    padding: 0.5rem;
+  }
+  .googleadresultbox__header {
+    padding-left: 0.5rem;
+  }
+}

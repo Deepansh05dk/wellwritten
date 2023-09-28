@@ -1,0 +1,19 @@
+.balance__body {
+  background-color: #4e7d9626;
+  padding: 4rem 5rem;
+}
+@media screen and (max-width: 450px) {
+  .balance__body {
+    padding: 1.5rem 1rem;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 641px) {
+  .balance__body {
+    padding: 1.5rem 1.5rem;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 1200px) {
+  .balance__body {
+    padding: 1.5rem 2rem;
+  }
+}
